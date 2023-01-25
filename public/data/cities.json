@@ -1,0 +1,92 @@
+[
+   {
+     "city": "Paris",
+     "lat": 48.8566,
+     "lng": 2.3522,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Île-de-France",
+     "area": 11020000,
+     "population": 2148271
+   },
+   {
+     "city": "Nice",
+     "lat": 43.7034,
+     "lng": 7.2663,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Provence-Alpes-Côte d’Azur",
+     "area": 1006402,
+     "population": 341032
+   },
+   {
+     "city": "Toulouse",
+     "lat": 43.6045,
+     "lng": 1.444,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Occitanie",
+     "area": 968638,
+     "population": 486828
+   },
+   {
+     "city": "Marseille",
+     "lat": 43.2964,
+     "lng": 5.37,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Provence-Alpes-Côte d’Azur",
+     "area": 870018,
+     "population": 868277
+   },
+   {
+     "city": "Rennes",
+     "lat": 48.1147,
+     "lng": -1.6794,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Bretagne",
+     "area": 727357,
+     "population": 217728
+   },
+   {
+     "city": "Grenoble",
+     "lat": 45.1715,
+     "lng": 5.7224,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Auvergne-Rhône-Alpes",
+     "area": 687985,
+     "population": 157650
+   },
+   {
+     "city": "Nantes",
+     "lat": 47.2181,
+     "lng": -1.5528,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Pays de la Loire",
+     "area": 633690,
+     "population": 314138
+   },
+   {
+     "city": "Montpellier",
+     "lat": 43.6119,
+     "lng": 3.8772,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Occitanie",
+     "area": 607896,
+     "population": 290053
+   },
+   {
+     "city": "Lyon",
+     "lat": 45.76,
+     "lng": 4.84,
+     "country": "France",
+     "country_code": "FR",
+     "region": "Auvergne-Rhône-Alpes",
+     "area": 516092,
+     "population": 516092
+   }
+ ]

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  city-weather-forecast-map:
+    container_name: city-weather-forecast-map_prod
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3003:80
+    environment:
+      - API_KEY: ${API_KEY}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+import React from 'react'
+
+import CityWeatherForecastMain from './components/CityWeatherForecastMain'
+
+const DEFAULT_COUNTRY = 'France'
+const config = {
+  apiKey: process.env.API_KEY,
+  numberOfDays: process.env.NUMBER_OF_DAYS || 7
+}
+
+console.log(process.env)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <CityWeatherForecastMain country={DEFAULT_COUNTRY} config={config} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
