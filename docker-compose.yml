@@ -8,5 +8,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - 3003:80
-    environment:
-      - API_KEY: ${API_KEY}

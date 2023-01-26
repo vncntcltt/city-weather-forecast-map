@@ -6,11 +6,9 @@ import CityWeatherForecastMain from './components/CityWeatherForecastMain'
 
 const DEFAULT_COUNTRY = 'France'
 const config = {
-  apiKey: process.env.API_KEY,
-  numberOfDays: process.env.NUMBER_OF_DAYS || 7
+  apiKey: process.env.REACT_APP_API_KEY,
+  numberOfDays: process.env.REACT_APP_NUMBER_OF_DAYS || 7
 }
-
-console.log(process.env)
 
 function App() {
   return (
